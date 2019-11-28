@@ -1,24 +1,24 @@
 <html>
 <head>
-	<title>Project #1</title>
+	<title>Learning childeren the English Letters</title>
 	<style type="text/css">
 		body{
 			text-align:center;
 		}
-		input{
+		#text{
 			text-align: center;
 			font-weight: bold;
 			margin-right:25px;
-			width: 200px;
-			min-height:40px; 
+			width: 210px;
+			min-height:35px; 
 			background-color:#DDDDDD;
 		}
-		button{
+		button,#btn{
 			color:#FFFFFF;
 			font-weight: bold;
 			margin-top:20px;
 			min-width: 100px;
-			min-height: 40px;
+			min-height: 35px;
 			background-color:blue; 
 			border: 3px dashed red;			
 		}
@@ -30,12 +30,18 @@
             margin-top: 50px;
 			text-align: center;
         }
+		p{
+		color:blue;
+		font-size:30px;
+		}
 	</style>
 </head>
 <body>
-<b>George Marzouk Rofael Beshay<b><br>
-	<input type="text" id="text" placeholder="Write a number from 1 to 26"> 
-	<button id="btn">generate</button>
+	<br><span><b>George Marzouk Rofael Beshay<b></span>
+	<p><b>Learning childeren the English Letters<b></p>
+	<span><b>Just write the number of letters you want to learn<b></span><br>
+	<input type="number" min="1" max="26 "id="text" placeholder="Write a number from 1 to 26"> 
+	<input type="submit" id="btn" value="generate">
     <div id="div"></div>
     <img src="">
     
